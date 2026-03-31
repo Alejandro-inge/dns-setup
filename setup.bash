@@ -5,7 +5,7 @@ apt update
 # Open port 53 UDP/TCP
 
 ufw allow 53/tcp
-ufw allow 53/upd
+ufw allow 53/udp
 
 # Install bind9
 
