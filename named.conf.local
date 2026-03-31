@@ -1,4 +1,4 @@
 zone "local.lan" IN {
 	type master;
-	file "/etc/bind/local.lan";
+	file "/etc/bind/net.local.lan";
 };
